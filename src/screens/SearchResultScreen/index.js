@@ -1,9 +1,8 @@
 import { View, Text } from 'react-native';
 import React from 'react';
 import HomeMap from '../../components/HomeMap';
-import CovidMessage from '../../components/CovidMessage';
-import HomeSearch from '../../components/HomeSearch';
-const HomeScreen = () => {
+import UberTypes from '../../components/UberTypes';
+const SearchResultScreen = () => {
   return (
     <View
       style={{
@@ -14,10 +13,10 @@ const HomeScreen = () => {
         <HomeMap />
       </View>
       <View style={{ flex: 2 }}>
-        <HomeSearch />
+        <UberTypes />
       </View>
     </View>
   );
 };
 
-export default HomeScreen;
+export default SearchResultScreen;
