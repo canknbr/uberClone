@@ -1,6 +1,7 @@
 import { View, Text } from 'react-native';
 import React from 'react';
-import HomeMap from '../../components/HomeMap';
+
+import RouteMap from '../../components/RouteMap';
 import UberTypes from '../../components/UberTypes';
 const SearchResultScreen = () => {
   return (
@@ -10,7 +11,7 @@ const SearchResultScreen = () => {
       }}
     >
       <View style={{ flex: 3 }}>
-        <HomeMap />
+        <RouteMap />
       </View>
       <View style={{ flex: 2 }}>
         <UberTypes />

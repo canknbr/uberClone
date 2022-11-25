@@ -4,7 +4,7 @@ import HomeScreen from '../screens/HomeScreen';
 import DestinationSearch from '../screens/DestinationSearch';
 import SearchResultScreen from '../screens/SearchResultScreen';
 const Navigator = () => {
-  return <HomeScreen />;
+  return <SearchResultScreen />;
 };
 
 export default Navigator;
